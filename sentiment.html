@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASLP Analytics</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+
+      /* ✅ Correct way to load background image */
+      background-image: url("b-1024x768-1.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+    }
+
+    /* Optional dark overlay for readability */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: -1;
+    }
+
+    h1 {
+      font-size: 4em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-bottom: 2em;
+    }
+
+    a.button {
+      background: white;
+      color: #4facfe;
+      padding: 1em 2em;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.5em;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    a.button:hover {
+      background: #e0e0e0;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ASLP Analytics</h1>
+  <p>Explore Customer Feedback and Insights</p>
+
+  <a class="button"
+     href="https://customer-feedback-x9cl.onrender.com"
+     target="_blank">
+    Go to Feedback App
+  </a>
+
+</body>
+</html>
